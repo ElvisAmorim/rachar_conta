@@ -2,7 +2,7 @@
 
 function formatVl(value){
     value = value.toFixed(2)
-    return 'R$ ' + value
+    return 'R$ ' + value.replace('.',',')
 }
 
 
